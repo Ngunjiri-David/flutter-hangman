@@ -1,0 +1,3 @@
+## LOGIC
+Word guessing algorithm.
+1. Maintain a single source of truth to avoid sync issues with duplicate data sources. Implemented by using a stateless wordlist and recomputing every time a check needs to happen then updating the counter.
