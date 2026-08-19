@@ -1,2 +1,2 @@
-# sovereign-flutter-hangman-lab
+# sovereign-flutter-hangman
 Hangman classic in dart/flutter.
