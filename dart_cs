@@ -1,0 +1,5 @@
+Two approaches:
+1. Collect and concatenate list to be returned by the function.
+2. Collect elements in a list object then use join at the end once.
+
+The difference: String is an immutable object. On each iteration, a new string is formed then discarded on the next. A list is mutable in place.
