@@ -4,3 +4,7 @@ Word guessing algorithm.
 
 ## DART
 Dart's null-safety does not allow a reference to be used without assigning a value. For nullable references, dart already assigns null to the reference at declaration making it safe to use. String? hint; is already assigned null while Non-null String hint; must be assigned a value before running.
+#### Logic
+Functions:
+Declare type expected on return, parameters in brackets should have type as well.
+Ensure you return the type intended.
