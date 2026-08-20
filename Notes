@@ -8,3 +8,5 @@ Dart's null-safety does not allow a reference to be used without assigning a val
 Functions:
 Declare type expected on return, parameters in brackets should have type as well.
 Ensure you return the type intended.
+Accumulators:
+Initialise the iterator, iterate once per element, accumulate per the rule once per iteration, return its value once the loop ends.
