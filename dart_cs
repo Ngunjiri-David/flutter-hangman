@@ -3,3 +3,10 @@ Two approaches:
 2. Collect elements in a list object then use join at the end once.
 
 The difference: String is an immutable object. On each iteration, a new string is formed then discarded on the next. A list is mutable in place. However, Dart has StringBuffer() to solve the string issue for larger strings and one .toString() at the end.
+## GENERAL PRINCIPLES
+1. Before predicting or asserting anything about code, reread the exact code on screen precisely. Never work from memory of an earlier draft.
+2. Timestamp using git: git init                # once — turns the folder into a repo
+git status               # shows what changed, and whether it's staged
+git add -A                # stage everything that changed
+git commit -m "message"    # save the staged snapshot, permanently
+git log --oneline --date=short --format="%ad %s"   # the timestamped history
